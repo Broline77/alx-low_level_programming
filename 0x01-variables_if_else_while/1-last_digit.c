@@ -2,10 +2,10 @@
 #include <stdio.h>
 #include <time.h>
 /**
- * main -> assign a random int to the variable each time
- * print the last digit of the stored variable
- * Return: always 0 
- */
+* main -> assign a random int to the variable each time
+* print the last digit of the stored variable
+* Return: always 0 
+*/
 int main(void)
 {
 	int n, m;
