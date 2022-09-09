@@ -1,11 +1,11 @@
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
 /**
-* main -> assign a random int to the variable each time
-* print the last digit of the stored variable
-* Return: always 0 
-*/
+ * main-> function
+ * Descript: checks on the last digit of the assigned var
+ * Return: always 0
+ */
 int main(void)
 {
 	int n, m;
