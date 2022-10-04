@@ -1,2 +1,2 @@
 functions and nested loops
-0-putchar: a program that prints putchar follwed by a new line
+0-putchar a program that prints putcahr followed by a new line
