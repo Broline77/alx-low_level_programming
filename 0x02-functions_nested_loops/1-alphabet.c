@@ -1,12 +1,10 @@
 #include "main.h"
+
 /**
  * print_alphabet - prints alphabets in lowercase
- *
- * used putchar twice max no stdlibs
- *
- * Return: 0
+ * Return: Always 0.
  */
-void print_aplhabet(void)
+void print_alphabet(void)
 {
 	char c;
 
@@ -14,5 +12,5 @@ void print_aplhabet(void)
 	{
 		_putchar(c);
 	}
-	_putchar(10);
+	_putchar('\n');
 }
