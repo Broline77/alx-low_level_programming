@@ -2,6 +2,9 @@
 
 /**
  * main - causes an infinite loop
+ *
+ * int i: variable to initialze loop
+ *
  * Return: 0
  */
 
