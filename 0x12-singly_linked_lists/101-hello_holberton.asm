@@ -1,15 +1,17 @@
-	SECTION .data
-msg:	db "Hello, Holberton", 0
-fmt:	db "%s", 10, 0
+section .data
+	msg: db "Hello, Holberton", 0x0a
+	msglen equ $-msg
 
-	SECTION .text
-	extern printf
+section .text
 	global main
-main:
-	mov esi, msg
-	mov edi, fmt
-	mov eax, 0
-	call printf
 
-	mov eax, 0
-	ret
+main:
+	; write HelloHolberton to screen
+	mov eax, 1 ; syscall for write
+	mov edi, 1
+	mov rsi, msg
+	mov edx, msglen
+	syscall
+	mov eax, 60 ; 60 is exit
+	xor edi, edi ; exit (0)
+	syscall
