@@ -4,7 +4,7 @@
 
 /**
  * main -checks the last digit
- * @n: int to be checked
+ * @n int to be checked
  * Return: the last digit plus a string
  */
 int main(void)
@@ -18,8 +18,8 @@ int main(void)
 	if (n > 5)
 		printf("the last digit of %d is %d and is greater than 5\n", n, a);
 	else if (n == 0)
-		printf("the laast digit of %d is %d and is zero\n", n, a);
+		printf("the laast digit of %d is %d and is 0\n", n, a);
 	else
-		printf("the last
+		printf("the last digit od %d is %d and is less than 6 and is not 0\n", n, a);
 	return (0);
 }
