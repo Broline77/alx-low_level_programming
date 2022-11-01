@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <unistd.h>
-
+#include <stdio.h>
 /**
  * main - checks if pos or neg
  * @n - int to be checked
