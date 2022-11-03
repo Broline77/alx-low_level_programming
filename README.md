@@ -1,2 +1,2 @@
-C is a low level programming language
+project based approach to learning C
 
