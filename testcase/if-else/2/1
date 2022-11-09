@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+
+/**
+ * main - prints doubles
+ * comma + space
+ * least combo(a,<b)
+ * Return: always 0
+ */
+int main(void)
+{
+	int a;
+
+	for (a = 48; a < 58; a++)
+		putchar(a);
+	for (a = 48; a < 58; a++)
+		putchar(a);
+	putchar(10);
+	return (0);
+}
