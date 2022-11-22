@@ -4,18 +4,18 @@
  * main - prints alphabets x10
  * Return: always o
  */
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
 	int a;
 	int b;
 
-	for (a = 'a'; a <= "z"; a++)
+	for (a = 0; a < 10; a++)
 	{
-		for (b = 0; b < 10; b++)
+		for (b = 'a'; b <= 'z'; b++)
 		{
-			_putchar(a);
+			_putchar(b);
 		}
-	}
 	_putchar(10);
+	}
 }
 
