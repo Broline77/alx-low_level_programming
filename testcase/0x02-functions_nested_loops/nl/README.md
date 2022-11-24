@@ -1,2 +1,2 @@
 practice
-skip timestable
+skip timestable n-98
